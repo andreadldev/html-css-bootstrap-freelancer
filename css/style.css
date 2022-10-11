@@ -11,3 +11,8 @@ header {
 .debug [class^="col"] {
     border: 1px solid violet;
 }
+
+section {
+    background-color: #1abc9c;
+    color: white;
+}
