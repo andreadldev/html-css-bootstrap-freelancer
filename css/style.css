@@ -7,7 +7,7 @@ header, footer {
     color: white;
 }
 
-.debug [class^="col"] {
+.debug [class^="col-"] {
     border: 1px solid violet;
 }
 
@@ -19,3 +19,4 @@ section:nth-child(odd) {
 section:last-child {
     background-color: #3a546d;
 }
+
