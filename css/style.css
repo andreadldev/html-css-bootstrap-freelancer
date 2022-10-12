@@ -29,14 +29,6 @@ section img {
     border-radius: 20px;
 }
 
-/* ----LG---- */
-@media screen and (min-width: 992px ) {
-    #portfolio .row {
-        max-width: 75%;
-    }
-}
-/* ---------- */
-
 section:nth-child(odd) {
     background-color: #1abc9c;
     color: white;
@@ -46,9 +38,13 @@ section:last-child {
     background-color: #3a546d;
 }
 
+#about, #contact-me {
+    padding: 0 15%;
+}
+
 .star hr {
-    width: 6vw;
-    min-width: 50px;
+    width: 10vw;
+    min-width: 70px;
     border: 2px solid currentColor;
     opacity: 1;
     border-radius: 10px;
@@ -56,12 +52,12 @@ section:last-child {
     position: absolute;
     top: -1.5px;
     right: 50%;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .star hr:last-child {
     position: absolute;
     top: -1.5px;
     left: 50%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
