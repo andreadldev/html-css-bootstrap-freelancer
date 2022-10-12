@@ -25,7 +25,30 @@ section:nth-child(odd) {
     color: white;
 }
 
+section:nth-child(odd) hr {
+    border: 2px solid white;
+}
+
 section:last-child {
     background-color: #3a546d;
 }
 
+.star hr {
+    width: 6vw;
+    min-width: 50px;
+    border: 2px solid black;
+    opacity: 1;
+    border-radius: 10px;
+
+    position: absolute;
+    top: -1.5px;
+    right: 50%;
+    margin-right: 30px;
+}
+
+.star hr:last-child {
+    position: absolute;
+    top: -1.5px;
+    left: 50%;
+    margin-left: 30px;
+}
