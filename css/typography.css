@@ -6,6 +6,10 @@ body h2 {
     font-size: 2rem;
 }
 
+header * {
+    font-weight: bold;
+}
+
 #hero span {
     font-weight: bold;
 }
