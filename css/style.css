@@ -20,13 +20,26 @@ section:first-child {
     padding-top: 60px;
 }
 
+section:first-child img {
+    width: 200px;
+}
+
+section img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* ----LG---- */
+@media screen and (min-width: 992px ) {
+    #portfolio .row {
+        max-width: 75%;
+    }
+}
+/* ---------- */
+
 section:nth-child(odd) {
     background-color: #1abc9c;
     color: white;
-}
-
-section:nth-child(odd) hr {
-    border: 2px solid white;
 }
 
 section:last-child {
@@ -36,7 +49,7 @@ section:last-child {
 .star hr {
     width: 6vw;
     min-width: 50px;
-    border: 2px solid black;
+    border: 2px solid currentColor;
     opacity: 1;
     border-radius: 10px;
 
