@@ -61,3 +61,11 @@ section:last-child {
     left: 50%;
     margin-left: 20px;
 }
+
+#pre-footer i {
+    border-radius: 50%;
+    width: 2.5rem;
+    border: 1px solid currentColor;
+    padding: 10px;
+    margin: 0 4px;
+}
